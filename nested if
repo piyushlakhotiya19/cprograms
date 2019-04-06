@@ -1,0 +1,25 @@
+#include<stdio.h>
+void input(int *a,int *b,int *c);
+int  smallest(int,int,int);
+void output(int);
+void output();
+int main(){
+    int a,b,c;
+    input(&a,&b,&c);
+    a = smallest(a,b,c);
+    output(a);
+}
+void input(int *a ,int *b,int *c){
+    printf("Enter three numbers");
+    scanf("%d %d %d",a,b,c);
+}
+int smallest(int a,int b,int c){
+    if(b<a)
+    a=b;
+    if(c<b)
+    a=c;
+    return a;
+    }
+void output(int a){
+    printf("%d",a);
+}
