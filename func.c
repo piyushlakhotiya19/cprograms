@@ -10,15 +10,15 @@ int commute(int a ,int b){
     c = a + b;
     return c;
 }
-void output(int a,int b,int d)
+void output(int a,int b,int c)
 {
-     printf("Sum is %d + %d = %d",a,b,d);
+     printf("Sum is %d + %d = %d",a,b,c);
 }
 void main()
 {
- int d;
+ int c;
  int a,b;
  input(&a,&b);
- d = commute( a,b);
- output( a, b,d);
+ c = commute( a,b);
+ output( a, b,c);
 }
