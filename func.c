@@ -17,8 +17,8 @@ void output(int a,int b,int c)
 void main()
 {
  int c;
- int a,b;
- input(&a,&b);
- c = commute( a,b);
- output( a, b,c);
+int a,b;
+     input(&a,&b);
+     c = commute( a,b);
+     output( a, b,c);
 }
