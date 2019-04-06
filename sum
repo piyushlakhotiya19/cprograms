@@ -1,0 +1,33 @@
+#include<stdio.h>
+void input(int n,int a[n]);
+void totalElements(int *n);
+int summing(int n,int a[n],int i);
+void output(int d);
+void main(){
+    int n;
+    int i,sum;
+    totalElements(&n);
+    int a[n];
+    input(a[]);
+    sum = summing(int a[]);
+    output(sum);
+}
+void totalElements(int *n){
+    printf("total number to be added");
+    scanf("%d",n);
+}
+void input(int a[n]){
+    for(i=0;i<n;i++)
+    scanf("%d",&a[i]);
+}
+int summing(int a[]){
+    for(i=0;i<n;i++)
+    if(i==0){
+        sum =0;
+    }
+    sum =sum+a[i];
+    return sum;
+}
+void output(int sum){
+    printf("sum is %d",sum);
+}
